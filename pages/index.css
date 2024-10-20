@@ -1,0 +1,55 @@
+main {
+margin-top: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 59px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: gold;
+    border-radius: 50%;
+    width: 700px;
+    margin-left: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+img {
+    height: 900px;
+    width: 400px;
+}
+
+.container {
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1601px;
+    padding-bottom: 50px;
+}
+
+.item {
+    outline: auto black;
+}
+
+.item__description {
+    width: 200px;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.price  {
+    font-size: 25px;
+    padding-left: 10px;;
+}
+
